@@ -1,0 +1,16 @@
+version: "2"
+domain: example.faem.io
+repo: github.com/faem/kubebuilder-example
+resources:
+- group: batch
+  version: v1
+  kind: CronJob
+- group: batch
+  version: v1
+  kind: CronJob
+- group: batch
+  version: v1
+  kind: CronJob
+- group: batch
+  version: v1
+  kind: CronJob
